@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏏 IPL Win Probability Predictor
 
 A machine learning-powered web application that predicts the win probability of IPL (Indian Premier League) matches in real-time based on current match situation.
@@ -107,3 +108,7 @@ This project is open source and available under the MIT License.
 ---
 
 **Built with ❤️ for IPL fans and data science enthusiasts!**
+=======
+# achine-Learning-powered-IPL-match-win-probability-predictor-with-Streamlit-web-app
+achine Learning powered IPL match win probability predictor with Streamlit web app
+>>>>>>> be7a67587cce8ad776e00151cfadda7aa6df2892
