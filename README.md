@@ -1,7 +1,14 @@
 <<<<<<< HEAD
 # 🏏 IPL Win Probability Predictor
 
-A machine learning-powered web application that predicts the win probability of IPL (Indian Premier League) matches in real-time based on current match situation.
+**Developed by Swaraj** | A machine learning-powered web application that predicts the win probability of IPL (Indian Premier League) matches in real-time based on current match situation.
+
+## 👨‍💻 About the Developer
+
+**Swaraj** - Aspiring Data Scientist and Machine Learning Enthusiast
+- Passionate about sports analytics and predictive modeling
+- Skilled in Python, Machine Learning, and Web Development
+- This project demonstrates end-to-end ML pipeline development
 
 ## 🚀 Features
 
@@ -92,14 +99,23 @@ ipl-win-probability-predictor/
 - **Interactive UI**: User-friendly web interface
 - **Production Ready**: Deployable web application
 
-## 🎓 Learning Outcomes
+## 🎓 Learning Journey & Outcomes
 
-This project demonstrates:
+**What I learned building this project:**
+- **Machine Learning**: Implemented Logistic Regression from scratch
+- **Data Science**: Feature engineering, data preprocessing, model evaluation
+- **Web Development**: Created interactive dashboard with Streamlit
+- **Deployment**: Learned model serialization and web hosting
+- **Sports Analytics**: Applied ML to real-world sports prediction
+- **Version Control**: Git/GitHub for project management
+- **Documentation**: Professional README and code documentation
+
+**Technical Skills Gained:**
+- Python programming (Pandas, NumPy, Scikit-learn)
 - Machine learning model development
-- Web application development with Streamlit
-- Data preprocessing and feature engineering
-- Model deployment and web hosting
-- Sports analytics and predictive modeling
+- Web application development
+- Data visualization and analysis
+- Project deployment and hosting
 
 ## 📝 License
 

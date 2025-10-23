@@ -21,7 +21,8 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
 import os
 model_path = os.path.join(os.path.dirname(__file__), 'pipe.pkl')
 pipe = pickle.load(open(model_path,'rb'))
-st.title('IPL Win Predictor')
+st.title('🏏 IPL Win Probability Predictor')
+st.markdown("**Developed by Swaraj** | *Machine Learning Project*")
 
 col1, col2 = st.columns(2)
 
@@ -56,5 +57,10 @@ if st.button('Predict Probability'):
     result = pipe.predict_proba(input_df)
     loss = result[0][0]
     win = result[0][1]
-    st.header(batting_team + "- " + str(round(win*100)) + "%")
-    st.header(bowling_team + "- " + str(round(loss*100)) + "%")
+    st.header(f"🏆 {batting_team}: {round(win*100)}%")
+    st.header(f"🎯 {bowling_team}: {round(loss*100)}%")
+    
+    # Add some personal touches
+    st.markdown("---")
+    st.markdown("**Prediction by Swaraj's ML Model** 🤖")
+    st.markdown("*Built with Python, Streamlit & Scikit-learn*")

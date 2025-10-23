@@ -62,5 +62,7 @@ pipe.fit(X, y)
 
 # Save the model
 pickle.dump(pipe, open('pipe.pkl', 'wb'))
-print("Mock model created and saved as pipe.pkl")
-print("Model accuracy on training data:", pipe.score(X, y))
+print("🏏 IPL Win Probability Model created by Swaraj")
+print("📊 Model saved as pipe.pkl")
+print("🎯 Model accuracy on training data:", pipe.score(X, y))
+print("✅ Ready for deployment!")
